@@ -34,40 +34,42 @@ function Contact() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mx-auto max-w-xl space-y-4 p-6">
-      <input
-        name="firstName"
-        placeholder="First Name"
-        required
-        onChange={handleChange}
-        className="w-full border p-2"
-      />
-      <input
-        name="lastName"
-        placeholder="Last Name"
-        required
-        onChange={handleChange}
-        className="w-full border p-2"
-      />
-      <input
-        name="email"
-        type="email"
-        placeholder="Email"
-        required
-        onChange={handleChange}
-        className="w-full border p-2"
-      />
-      <textarea
-        name="message"
-        placeholder="Message"
-        required
-        onChange={handleChange}
-        className="w-full border p-2"
-      />
-      <button type="submit" className="bg-blue-600 px-4 py-2 text-white">
-        Send
-      </button>
-    </form>
+    <main className="pt-16">
+      <form onSubmit={handleSubmit} className="mx-auto max-w-xl space-y-4 p-6">
+        <input
+          name="firstName"
+          placeholder="First Name"
+          required
+          onChange={handleChange}
+          className="w-full border p-2"
+        />
+        <input
+          name="lastName"
+          placeholder="Last Name"
+          required
+          onChange={handleChange}
+          className="w-full border p-2"
+        />
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          onChange={handleChange}
+          className="w-full border p-2"
+        />
+        <textarea
+          name="message"
+          placeholder="Message"
+          required
+          onChange={handleChange}
+          className="w-full border p-2"
+        />
+        <button type="submit" className="bg-blue-600 px-4 py-2 text-white">
+          Send
+        </button>
+      </form>
+    </main>
   );
 }
 
