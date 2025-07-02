@@ -21,6 +21,12 @@ export default async function handler(req, res) {
       Email: ${email}
       Message: ${message}
     `,
+    html: `
+    <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Message:</strong></p>
+    <p>${message}</p>
+    `,
   };
 
   try {
