@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "D&D Character Generator",
-    image: "src/assets/dnd-character-generator.png",
+    image: "/images/dnd-character-generator.png",
     description:
       "A fully playable Dungeons and Dragons character builder built with React and Vite. Allows users to select race, class, ability scores, and generates a character sheet complete with AI-generated portrait. Built as part of my apprenticeship at Creating Coding Careers.",
     link: "https://react-100-hackathon.vercel.app/",
@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "Mortgage Calculator",
-    image: "src/assets/mortgage-calculator.png",
+    image: "/images/mortgage-calculator.png",
     description:
       "A responsive mortgage calculator app that allows users to input loan data and receive amortized monthly payments. Built using React and styled with Bootstrap. Built as part of my apprenticeship at Creating Coding Careers.",
     link: "https://mortgage-calculator-seven-inky.vercel.app/",
@@ -20,7 +20,9 @@ const projects = [
 function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl bg-white px-6 py-20">
-      <h2 className="mb-12 text-center text-4xl font-bold">My Projects</h2>
+      <h2 className="mb-12 text-center text-4xl font-bold">
+        My Recent Projects
+      </h2>
 
       {projects.map((project, index) => {
         const isLeft = project.direction === "left";

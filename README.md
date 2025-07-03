@@ -54,7 +54,7 @@ I’m a U.S. Navy veteran turned front-end developer with a passion for UI/UX de
 ## 📬 Contact
 
 Want to connect or collaborate?
-👉 [Contact Me](www.linkedin.com/in/austin-loucks)
+👉 [Contact Me](https://austinloucks.dev/contact)
 
 ---
 

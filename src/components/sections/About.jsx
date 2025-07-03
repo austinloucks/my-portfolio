@@ -27,10 +27,11 @@ function About() {
         TypeScript to level up my development toolkit even further.
         <br />
         <br />
-        Outside of tech, I run Dungeons & Dragons campaigns as a
-        Dungeon Master for me and my friends — a role that sharpens my creativity, storytelling, and
-         my ability to think and act on the fly. Whether it’s designing dungeons or debugging code, I
-        thrive when I’m solving problems and creating meaningful experiences.
+        Outside of tech, I run Dungeons & Dragons campaigns as a Dungeon Master
+        for my friends and I — a role that sharpens my creativity, storytelling,
+        and my ability to think and act on the fly. Whether it’s designing
+        dungeons or debugging code, I thrive when I’m solving problems and
+        creating meaningful experiences.
         <br />
         <br />
         I’m actively seeking a full-time junior developer role where I can
@@ -51,15 +52,13 @@ function About() {
           with Docker
         </li>
         <li>
-          🧠 Background in high-pressure environments from 5 years in the
-          U.S. Navy
+          🧠 Background in high-pressure environments from 5 years in the U.S.
+          Navy
         </li>
         <li>
           🎲 Creative storyteller and Dungeon Master for Dungeons & Dragons
         </li>
-        <li>
-          🤝 Strong communicator, team player, and collaborator
-        </li>
+        <li>🤝 Strong communicator, team player, and collaborator</li>
       </ul>
     </section>
   );

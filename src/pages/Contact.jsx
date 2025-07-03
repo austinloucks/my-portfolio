@@ -34,41 +34,55 @@ function Contact() {
   };
 
   return (
-    <main className="pt-16">
-      <form onSubmit={handleSubmit} className="mx-auto max-w-xl space-y-4 p-6">
-        <input
-          name="firstName"
-          placeholder="First Name"
-          required
-          onChange={handleChange}
-          className="w-full border p-2"
-        />
-        <input
-          name="lastName"
-          placeholder="Last Name"
-          required
-          onChange={handleChange}
-          className="w-full border p-2"
-        />
-        <input
-          name="email"
-          type="email"
-          placeholder="Email"
-          required
-          onChange={handleChange}
-          className="w-full border p-2"
-        />
-        <textarea
-          name="message"
-          placeholder="Message"
-          required
-          onChange={handleChange}
-          className="w-full border p-2"
-        />
-        <button type="submit" className="bg-blue-600 px-4 py-2 text-white">
-          Send
-        </button>
-      </form>
+    <main className="min-h-screen bg-gradient-to-b from-white to-gray-100 px-6 pt-24">
+      <div
+        className="mx-auto max-w-2xl rounded-2xl bg-white p-8 shadow-xl"
+        data-aos="fade-up"
+      >
+        <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
+          Contact Me
+        </h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <input
+              name="firstName"
+              placeholder="First Name"
+              required
+              onChange={handleChange}
+              className="w-full rounded-lg border border-gray-300 p-3 transition focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+            />
+            <input
+              name="lastName"
+              placeholder="Last Name"
+              required
+              onChange={handleChange}
+              className="w-full rounded-lg border border-gray-300 p-3 transition focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+            />
+          </div>
+          <input
+            name="email"
+            type="email"
+            placeholder="Email"
+            required
+            onChange={handleChange}
+            className="w-full rounded-lg border border-gray-300 p-3 transition focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+          />
+          <textarea
+            name="message"
+            placeholder="Your message..."
+            required
+            rows="5"
+            onChange={handleChange}
+            className="w-full rounded-lg border border-gray-300 p-3 transition focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+          />
+          <button
+            type="submit"
+            className="w-full rounded-lg bg-indigo-600 py-3 font-semibold text-white transition hover:bg-indigo-700"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
     </main>
   );
 }
