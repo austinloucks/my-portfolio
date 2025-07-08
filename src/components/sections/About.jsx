@@ -43,22 +43,22 @@ function About() {
 
       <ul className="grid list-inside list-disc gap-4 text-base sm:grid-cols-2">
         <li>
-          🛠️ Front-end focused, with a love for React, JavaScript, and clean
+          Front-end focused, with a love for React, JavaScript, and clean
           UI/UX
         </li>
-        <li>⚙️ Familiar with Node.js, Express, MongoDB, and MySQL</li>
+        <li>Familiar with Node.js, Express, MongoDB, and MySQL</li>
         <li>
-          📚 Currently self-teaching TypeScript and exploring containerization
+          Currently self-teaching TypeScript and exploring containerization
           with Docker
         </li>
         <li>
-          🧠 Background in high-pressure environments from 5 years in the U.S.
+          Background in high-pressure environments from 5 years in the U.S.
           Navy
         </li>
         <li>
-          🎲 Creative storyteller and Dungeon Master for Dungeons & Dragons
+          Creative storyteller and Dungeon Master for Dungeons & Dragons
         </li>
-        <li>🤝 Strong communicator, team player, and collaborator</li>
+        <li>Strong communicator, team player, and collaborator</li>
       </ul>
     </section>
   );
